@@ -5,46 +5,16 @@ import LogoS from '../../../assets/images/logo-q-new.png'
 import './index.scss'
 
 const Logo = () => {
-    const bgRef = useRef()
-    const outlineLogoRef = useRef()
-    const solidLogoRef = useRef()
-
-    useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin)
-
-        gsap
-            .timeline()
-            .to(bgRef.current, {
-                duration: 1,
-                opacity: 1,
-            }).from(outlineLogoRef.current, {
-                drawSVG: 1,
-                duration: 20,
-            })
-
-        gsap.fromTo(
-            solidLogoRef.current,
-            {
-                opacity: 0,
-            },
-            {
-                opacity: 1,
-                delay: 4,
-                duration: 4,
-            }
-        )
-    }, [])
 
     return (
-        <div className="logo-container" ref={bgRef}>
+        <div className="logo-container">
             <img
                 className="solid-logo"
-                ref={solidLogoRef}
                 src={LogoS}
                 alt="JavaScript,  Developer"
             />
 
-            <svg
+            {/* <svg
                 width="559pt"
                 height="897pt"
                 version="1.0"
@@ -75,7 +45,7 @@ const Logo = () => {
                             730 659 1117 773 44 13 84 24 89 24 4 1 54 -38 109 -86z"
                     />
                 </g>
-            </svg>
+            </svg> */}
         </div>
     )
 }

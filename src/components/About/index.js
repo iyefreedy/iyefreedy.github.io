@@ -4,7 +4,7 @@ import './index.scss';
 
 import AnimatedLetters from '../AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngular, faCss3, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faCss3, faGithub, faHtml5, faJsSquare, faPhp, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 
 const About = () => {
@@ -35,7 +35,7 @@ const About = () => {
                 <div className='stage-cub-cont'>
                     <div className='cubespinner'>
                         <div className='face1'>
-                            <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                            <FontAwesomeIcon icon={faPhp} color="#DD0031" />
                         </div>
                         <div className='face2'>
                             <FontAwesomeIcon icon={faHtml5} color="#F06529" />

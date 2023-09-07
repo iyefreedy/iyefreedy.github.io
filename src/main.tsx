@@ -6,10 +6,10 @@ import "animate.css";
 import "loaders.css";
 
 import "./sass/style.scss";
-import Layout from "./Components/Layout/index.tsx";
-import Home from "./Components/Home/index.tsx";
-import About from "./Components/About/index.tsx";
-import Contact from "./Components/Contact/index.tsx";
+import Layout from "./components/Layout/index.tsx";
+import Home from "./components/Home/index.tsx";
+import About from "./components/About/index.tsx";
+import Contact from "./components/Contact/index.tsx";
 
 const router = createBrowserRouter([
   {

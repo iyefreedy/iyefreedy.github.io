@@ -9,9 +9,14 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = ["u", "r", "a", "i", "s", "y"];
   const jobArray = [
+    "s",
+    "o",
+    "f",
+    "t",
     "w",
+    "a",
+    "r",
     "e",
-    "b",
     " ",
     "d",
     "e",
@@ -50,7 +55,7 @@ const Home = () => {
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
-            idx={22}
+            idx={15}
           />
         </h1>
         <h2>Frontend Developer / Javascript Expert </h2>

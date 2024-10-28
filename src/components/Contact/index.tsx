@@ -39,7 +39,7 @@ const Contact = () => {
         "service_r0n1iqg",
         "template_twugknr",
         refForm.current as HTMLFormElement,
-        "loshRG79sAxS25iK0"
+        { publicKey: "loshRG79sAxS25iK0" }
       )
       .then(
         () => {

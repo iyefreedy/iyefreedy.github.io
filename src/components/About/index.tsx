@@ -35,18 +35,16 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
-          <p>
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            I’m a dedicated Software Engineer passionate about creating
+            innovative, user-centric web and mobile applications. With a strong
+            foundation in PHP, JavaScript, Flutter, and Firebase, I’ve
+            successfully developed scalable, high-performing solutions that
+            drive efficiency and improve user experiences. I enjoy designing and
+            deploying robust systems using technologies like Flask, React, and
+            Firebase, always striving to deliver exceptional results. I’m
+            looking to bring my problem-solving skills and technical expertise
+            to a dynamic team where I can continue driving innovation and making
+            a meaningful impact.
           </p>
         </div>
         <div className="stage-cub-cont">
@@ -72,6 +70,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <Loader type="pacman" active />
     </>
   );

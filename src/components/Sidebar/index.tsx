@@ -5,11 +5,17 @@ import LogoS from "../../assets/images/logo-q-new.png";
 import LogoSubtitle from "../../assets/images/quraisy.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faDiagramProject,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithub,
   faYoutube,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => (
@@ -32,6 +38,22 @@ const Sidebar = () => (
       </NavLink>
       <NavLink
         className={({ isActive }) =>
+          isActive ? "active skills-link" : "skills-link"
+        }
+        to="/skills"
+      >
+        <FontAwesomeIcon icon={faReact} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "active experience-link" : "experience-link"
+        }
+        to="/experiences"
+      >
+        <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
           isActive ? "active contact-link" : "contact-link"
         }
         to="/contact"
@@ -41,7 +63,11 @@ const Sidebar = () => (
     </nav>
     <ul>
       <li>
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/quraisy/"
+        >
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>

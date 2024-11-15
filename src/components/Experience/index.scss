@@ -1,0 +1,21 @@
+.experience-page {
+
+    .project-list {
+        display: flex;
+        column-gap: 2rem;
+
+        .project-item {
+            img {
+                width: 24rem;
+                height: 14rem;
+            }
+
+            a {
+                margin-top: .75rem;
+                display: block;
+                color: white;
+                font-size: 1.35rem;
+            }
+        }
+    }
+}
